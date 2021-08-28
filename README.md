@@ -1,7 +1,8 @@
 # Confiant Coding Test
 
 This project should be ran locally alongside [the frontend](https://github.com/rachelrj/confiant-coding-test).
-This node.js api uses Express and Typescript
+This node.js api uses Express and Typescript.
+
 To run the application :
 
 ```
