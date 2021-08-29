@@ -7,6 +7,9 @@
     "max-line-length": {
       "options": [120]
     },
+    "one-variable-per-declaration": {
+      "severity": "warning"
+    },
     "new-parens": true,
     "no-arg": true,
     "no-bitwise": true,

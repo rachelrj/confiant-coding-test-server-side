@@ -1,7 +1,7 @@
 # Confiant Coding Test
 
 This project should be ran locally alongside [the frontend](https://github.com/rachelrj/confiant-coding-test).
-This node.js api uses Express and Typescript.
+This Node.js api uses Express and Typescript and Sequelize as the ORM for SQLite3
 
 To run the application :
 
