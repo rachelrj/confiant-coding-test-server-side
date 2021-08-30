@@ -1,7 +1,12 @@
 # Confiant Coding Test
 
 This project should be ran locally alongside [the frontend](https://github.com/rachelrj/confiant-coding-test).
-This Node.js api uses Express and Typescript and Sequelize as the ORM for SQLite3
+This Node.js api uses: 
+   * Express as the web application framework
+   * Typescript as the language
+   * Sequelize as the ORM
+   * SQLite3
+   * NodeCache
 
 To run the application :
 
@@ -18,6 +23,10 @@ Linting can be ran with:
 ``
 npm run prebuild
 ``
+
+This video demonstrates how the application logs transactions to a local sqlite instance.
+
+https://drive.google.com/file/d/1-3Q7IE5xBZhnimJV47XkQHHIEVIZ_t8F/view?usp=sharing
 
 ## Directions
 

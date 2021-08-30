@@ -2,11 +2,6 @@ import express from "express";
 const port = 8080;
 import cors from "cors";
 import axios from "axios";
-/*
-    TODO: Choose data cache solution based on demands of application
-    (performance, scalability, manageability, flexibility, affordability, etc.)
-    instead of just simplicity
- */
 import NodeCache from  "node-cache";
 /*
     The ttl for every generated cache element is one day.
@@ -14,7 +9,6 @@ import NodeCache from  "node-cache";
  */
 const entryCache = new NodeCache( { stdTTL: 86400, checkperiod: 120 } );
 const paramsSerializer = (params: any) => Object.keys(params).map(p => `${p}=${params[p]}`).join("&");
-
 
 import { initializeDb, SearchRecord } from './initDb';
 initializeDb().then((sequelizeInstance) => {

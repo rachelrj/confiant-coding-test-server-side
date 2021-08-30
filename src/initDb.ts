@@ -31,4 +31,4 @@ async function initDb() {
     return sequelize;
 }
 
-export const initializeDb = initDb, SearchRecord = Search
+export const initializeDb = initDb, SearchRecord = Search;
